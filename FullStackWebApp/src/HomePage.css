@@ -1,0 +1,11 @@
+button{
+  
+    background-color: hsla(245, 68%, 36%, 0.756);
+    border-radius: 15vh;
+    padding: 5px;
+}
+
+
+button a{
+    text-decoration: none;
+}
