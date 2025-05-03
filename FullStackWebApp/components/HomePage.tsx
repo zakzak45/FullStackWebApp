@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
     const navigate = useNavigate();
     const handleTutorClick = () => {
-        navigate('/LoginInPage.tsx', { replace: true });
+        navigate('/HomePage', { replace: true });
     };
 
     return (
@@ -20,7 +20,7 @@ const HomePage = () => {
             <div className="main">
 
                 <button id="tutor" onClick={handleTutorClick} >Tutor</button>
-                <button id="student"> Student</button>
+                <button id="student" onClick={handleTutorClick}> Student</button>
 
             </div>
 
