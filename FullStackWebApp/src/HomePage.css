@@ -1,11 +1,24 @@
-button{
-  
-    background-color: hsla(245, 68%, 36%, 0.756);
+button {
+
+    background-color: hsla(245, 57%, 80%, 0.756);
     border-radius: 15vh;
-    padding: 5px;
+
 }
 
+button:hover {
+    background-color: hsla(245, 40%, 82%, 0.756);
+    border-color: azure;
+    border-radius: 14vh;
+    transition: smooth 0.5s;
+}
 
-button a{
+button a:link {
     text-decoration: none;
+    color: hsla(245, 18%, 28%, 0.756);
+
+}
+
+button a:visited {
+    text-decoration: none;
+    color: hsla(245, 18%, 28%, 0.756);
 }

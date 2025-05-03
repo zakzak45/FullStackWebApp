@@ -1,20 +1,27 @@
 import './HomePage.css';
+import { useNavigate } from 'react-router-dom';
 
 
 const HomePage = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('./LoginInPage');
+    };
+
     return (
         <>
+
             <div className="home-page">
                 <h2>FrontEndWebApp</h2>
 
             </div>
             <div className="main">
 
-                <label for="student" id="St">If you are student click here</label>
-                <button id="student"><a href="#">Student</a></button>
-                <label for="tutor" id="Tt">If youre a tutor click here</label>
-                <button id="tutor"><a href="#">Tutor</a></button>
+                <button id="tutor" onClick={handleClick}>Tutor</button>
+                <button id="student"> Student</button>
+
             </div>
+
         </>
     );
 }
