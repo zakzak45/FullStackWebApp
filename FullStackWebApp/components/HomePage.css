@@ -2,7 +2,22 @@ button {
 
     background-color: hsla(245, 57%, 80%, 0.756);
     border-radius: 15vh;
+    margin: 10px;
 
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
@@ -21,4 +36,10 @@ button a:link {
 button a:visited {
     text-decoration: none;
     color: hsla(245, 18%, 28%, 0.756);
+}
+
+.home-page h2 {
+    position: relative;
+    height: 20em;
+    text-align: center;
 }

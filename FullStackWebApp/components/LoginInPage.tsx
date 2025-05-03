@@ -1,3 +1,5 @@
+import './LoginInPage.css'
+
 const LoginInPage = () => {
     return (
         <div className="login">
