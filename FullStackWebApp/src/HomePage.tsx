@@ -1,13 +1,8 @@
 import './HomePage.css';
-import { useNavigate } from 'react-router-dom';
+
 
 
 const HomePage = () => {
-    const navigate = useNavigate();
-    const handleClick = () => {
-        navigate('./LoginInPage');
-    };
-
     return (
         <>
 
@@ -17,7 +12,7 @@ const HomePage = () => {
             </div>
             <div className="main">
 
-                <button id="tutor" onClick={handleClick}>Tutor</button>
+                <button id="tutor" >Tutor</button>
                 <button id="student"> Student</button>
 
             </div>
