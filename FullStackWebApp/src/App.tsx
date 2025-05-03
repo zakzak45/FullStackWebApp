@@ -1,6 +1,9 @@
 
 import './App.css'
-import HomePage from './HomePage'
+import { Routes, Route } from 'react-router-dom'
+import HomePage from '../components/HomePage'
+import LoginInPage from '../components/LoginInPage'
+
 
 
 
@@ -9,7 +12,10 @@ function App() {
 
   return (
     <>
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/LoginInPage" element={<LoginInPage />} />
+      </Routes>
 
     </>
   )
