@@ -1,5 +1,6 @@
 import './Student.css'
 import { useNavigate } from 'react-router-dom';
+import sasukeImg from './sasuke.jpg';
 
 
 const Student = () => {
@@ -11,21 +12,21 @@ const Student = () => {
             <div className="main">
 
                 <nav className="main-nav">
-                    <ul><li><a>Tutors</a></li></ul>
-                    <ul><li><a>Courses</a></li></ul>
+                    <ul><li><a href='#'>Tutors</a></li></ul>
                 </nav>
                 <div>
-                    <p>profileLearning(with status)</p>
+                    <img src={sasukeImg} alt='sasuke' />
+                    <p>Sasuke uchiha(with status}</p>
                 </div>
 
                 <form>
-                    <label htmlFor="course">Course</label>
-                    <input id="course" required />
-                    <p>learning style</p>
-                    <p>whistlist for what he wants</p>
-                    <label htmlFor="description" >Why</label>
-                    <input id="description" required />
-                    <button id="sub" >Submit</button>
+                    <p>visual learner</p>
+                    <p>I want to learn</p>
+                    <input type="text" />
+                    <ul><li>1</li></ul>
+                    <ul><li>2</li></ul>
+                    <ul><li>3</li></ul>
+                    <button id="sub" >Add</button>
                 </form>
             </div>
         </>

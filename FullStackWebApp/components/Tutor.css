@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+
+}
+
+
+img {
+    border-radius: 100rem;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#description {
+    margin: 0;
+    position: relative;
+    left: 0;
+    bottom: 50px;
+    height: 80px;
+}
